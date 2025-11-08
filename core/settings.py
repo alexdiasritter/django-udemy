@@ -64,7 +64,7 @@ THIRD_APPS = [
 
 PROJECT_APPS = [
     'core',
-    # Adicione outros apps do projeto aqui (localizados na pasta apps/)
+    'apps.base'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_APPS + PROJECT_APPS
